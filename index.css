@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: blue;
+}
+nav{
+    height: 60px;
+    background-color: black;
+    padding: 13px;
+    position: relative;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: center;
+}
+nav a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+}
+main{
+    width: 1200px;
+    height: 500px;
+    background: rgb(32,53,201);
+    background: linear-gradient(90deg, rgba(32,53,201,1) 0%, rgba(141,5,156,1) 73%);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.item2{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(148, 170, 236);
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+    z-index: 0;
+    
+}
+.tips{
+    width: 215px;
+    height: 200px;
+    background-color: blueviolet;
+    position: fixed;
+    left: 40px;
+    top: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.tips1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 13px;
+
+}
+.tips2{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.the{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.this{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.task{
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+}
+/* main tugadi */
+.section{
+    width: 1200px;
+    height: 320px;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    width: 585px;
+    height: 130px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 30px;
+}
+.position{
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.section2{
+    width: 1200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.task1{
+    font-size: 37px;
+}
+.task5{
+    font-size: 20px;
+}
+/* section 2 tugadi */
+footer{
+    height: 60px;
+    background-color: black;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.page1{
+    font-size: 20px;
+    color: white;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    width: 150px;
+    z-index: 18;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
